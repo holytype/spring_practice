@@ -11,7 +11,7 @@ public class Demo1Application {
 
 	public static void main(String[] args) {
 		ApplicationContext appContext = SpringApplication.run(Demo1Application.class, args);
-		String[] beansNameArr = appContext.getBeanDefinitionNames();
+//		String[] beansNameArr = appContext.getBeanDefinitionNames();
 		System.out.println("======");
 //		for(String bean : beansNameArr) {
 //			System.out.println(bean);
